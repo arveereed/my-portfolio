@@ -251,5 +251,128 @@
         "url": "",
         "isPinned": false,
         "year": 2025
+    },
+    {
+        "title": "ALS CONNECT",
+        "description": "ALS CONNECT is a web-based management system for Alternative Learning System programs, designed to track learner enrollment, progress, assessments, and graduate outcomes efficiently.",
+        "image": "/projects/als-connect.png",
+        "technologies": [
+            "Laravel",
+            "TaiwindCSS",
+            "MySQL"
+        ],
+        "url": "",
+        "isPinned": false,
+        "year": 2025
+    },
+    {
+        "title": "EcoTrack",
+        "description": "EcoTrack is a web-based environmental management system for tracking waste collection, trips, and seedling distribution for forest and mangrove tree planting.",
+        "image": "/projects/eco-track.png",
+        "technologies": [
+            "Laravel",
+            "TailwindCSS",
+            "MySQL"
+        ],
+        "url": "",
+        "isPinned": false,
+        "year": 2025
+    },
+    {
+        "title": "VoterHub",
+        "description": "VoterHub is an offline digital archiving and voter management system for organizing, analyzing, and reporting voter records at the barangay level.",
+        "image": "/projects/voterhub.png",
+        "technologies": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JS",
+            "MySQL"
+        ],
+        "url": "",
+        "isPinned": false,
+        "year": 2025
+    },
+    {
+        "title": "SPPF Automated Archive",
+        "description": "SPPF Automated Archive is an offline document management and archiving system that automates document retention, classification, and secure long-term storage.",
+        "image": "/projects/sppf.png",
+        "technologies": [
+            "PHP",
+            "HTML",
+            "CSS",
+            "JS",
+            "MySQL"
+        ],
+        "url": "",
+        "isPinned": false,
+        "year": 2025
+    },
+    {
+        "title": "Health Information System – MHO Sablayan",
+        "description": "Health Information System – MHO Sablayan is a web-based healthcare management system for patient records, consultations, medical certificates, and QR code–based patient verification.",
+        "image": "/projects/mho-his.png",
+        "technologies": [
+            "Laravel",
+            "TailwindCSS",
+            "MySQL"
+        ],
+        "url": "",
+        "isPinned": false,
+        "year": 2025
+    },
+    {
+        "title": "CROPTRACKER",
+        "description": "CROPTRACKER is a web-based agricultural management system for tracking seed inventory, farmer records, crop production, and distribution analytics.",
+        "image": "/projects/croptracker.png",
+        "technologies": [
+            "Laravel",
+            "TailwindCSS",
+            "MySQL"
+        ],
+        "url": "",
+        "isPinned": false,
+        "year": 2025
+    },
+    {
+        "title": "CROPCLAIM",
+        "description": "CROPCLAIM is a web-based crop insurance and farmer management system for handling registrations, insurance applications, approvals, and program reporting.",
+        "image": "/projects/cropclaim.png",
+        "technologies": [
+            "Laravel",
+            "TailwindCSS",
+            "MySQL"
+        ],
+        "url": "",
+        "isPinned": false,
+        "year": 2025
+    },
+    {
+        "title": "Disease Monitoring System of the Public Health Office (Sablayan)",
+        "description": "Disease Monitoring System of the Public Health Office is a web-based health surveillance system for tracking patient consultations, disease cases, and barangay-level public health trends.",
+        "image": "/projects/dms.png",
+        "technologies": [
+            "Laravel",
+            "TailwindCSS",
+            "MySQL"
+        ],
+        "url": "",
+        "isPinned": false,
+        "year": 2025
+    },
+    {
+        "title": "TUBFARMCO",
+        "description": "TUBFARMCO is a web-based cooperative management system for handling product inventory, sales, services, loans, and income reporting.",
+        "image": "/projects/tubfarmco.png",
+        "technologies": [
+            "Laravel",
+            "HTML",
+            "CSS",
+            "JS",
+            "MySQL"
+        ],
+        "url": "",
+        "isPinned": false,
+        "year": 2025
     }
 ]
