@@ -3,6 +3,20 @@ import path from 'path';
 
 const projectsPath = path.join(process.cwd(), 'data', 'projects.json');
 
+function normalizeProject(project) {
+    const currentYear = new Date().getFullYear();
+
+    return {
+        title: project.title ?? '',
+        description: project.description ?? '',
+        image: project.image ?? '',
+        technologies: project.technologies ?? [],
+        url: project.url ?? '',
+        isPinned: Boolean(project.isPinned),
+        year: Number(project.year) || currentYear
+    };
+}
+
 export default function handler(req, res) {
     // Only allow in development
     if (process.env.NODE_ENV === 'production') {
@@ -26,7 +40,7 @@ export default function handler(req, res) {
                 const projects = JSON.parse(data);
 
                 // Add new project
-                const newProject = req.body;
+                const newProject = normalizeProject(req.body);
                 projects.push(newProject);
 
                 fs.writeFileSync(projectsPath, JSON.stringify(projects, null, 4));
@@ -44,7 +58,7 @@ export default function handler(req, res) {
                 // Update existing project
                 const { index, ...projectData } = req.body;
                 if (index >= 0 && index < projects.length) {
-                    projects[index] = projectData;
+                    projects[index] = normalizeProject(projectData);
                     fs.writeFileSync(projectsPath, JSON.stringify(projects, null, 4));
                     res.status(200).json({ message: 'Project updated successfully' });
                 } else {

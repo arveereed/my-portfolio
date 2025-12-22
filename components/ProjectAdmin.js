@@ -11,7 +11,8 @@ export default function ProjectAdmin() {
         image: '',
         technologies: [],
         url: '',
-        isPinned: false
+        isPinned: false,
+        year: new Date().getFullYear()
     });
 
     // Load projects on component mount
@@ -74,7 +75,8 @@ export default function ProjectAdmin() {
                     image: '',
                     technologies: [],
                     url: '',
-                    isPinned: false
+                    isPinned: false,
+                    year: new Date().getFullYear()
                 });
                 setEditingProject(null);
                 setIsAdding(false);
@@ -96,7 +98,8 @@ export default function ProjectAdmin() {
         const project = projects[index];
         setFormData({
             ...project,
-            technologies: project.technologies || []
+            technologies: project.technologies || [],
+            year: project.year || new Date().getFullYear()
         });
         setEditingProject(index);
         setIsAdding(false);
@@ -220,6 +223,22 @@ export default function ProjectAdmin() {
                                         onChange={handleInputChange}
                                         required
                                         placeholder="/projects/image.png"
+                                        className="w-full px-3 py-2 border border-gray-600 rounded-md bg-gray-800 text-white"
+                                    />
+                                </div>
+
+                                <div>
+                                    <label className="block text-sm font-medium text-gray-300 mb-2">
+                                        Year
+                                    </label>
+                                    <input
+                                        type="number"
+                                        name="year"
+                                        min="2000"
+                                        max="2100"
+                                        value={formData.year}
+                                        onChange={handleInputChange}
+                                        required
                                         className="w-full px-3 py-2 border border-gray-600 rounded-md bg-gray-800 text-white"
                                     />
                                 </div>
