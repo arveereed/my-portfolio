@@ -4,6 +4,6 @@
         "company": "Capstone Project",
         "start_date": "2026-01-22",
         "end_date": "2026-02-22",
-        "description": "Currently solo-building and planning to deploy our capstone system from scratch using React (TypeScript), Tailwind CSS, Clerk, TanStack React Query, Cloudinary, and Firebase."
+        "description": "Solo-building a capstone system from scratch using React (TypeScript), Tailwind CSS, Clerk, TanStack React Query, Cloudinary, and Firebase, with deployment in progress."
     }
 ]
