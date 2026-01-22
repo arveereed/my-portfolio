@@ -1,16 +1,9 @@
 [
     {
         "title": "Full Stack Developer",
-        "company": "Freelance",
-        "start_date": "2023-01-01",
-        "end_date": null,
-        "description": "Built and deployed client systems from scratch using Laravel, Tailwind CSS, and MySQL."
-    },
-    {
-        "title": "IT Intern",
-        "company": "Tech Co.",
-        "start_date": "2022-06-01",
-        "end_date": "2022-12-31",
-        "description": "Assisted in maintaining internal systems and deploying minor features."
+        "company": "Capstone Project",
+        "start_date": "2026-01-22",
+        "end_date": "2026-02-22",
+        "description": "Currently solo-building and planning to deploy our capstone system from scratch using React (TypeScript), Tailwind CSS, Clerk, TanStack React Query, Cloudinary, and Firebase."
     }
 ]

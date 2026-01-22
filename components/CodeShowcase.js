@@ -23,7 +23,7 @@ export default function CodeShowcase() {
 
       <div className="text-center mb-10" data-aos="zoom-in">
         <a
-          href="https://github.com/rdevz-ph/my-portfolio"
+          href="https://github.com/arveereed/my-portfolio"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white dark:bg-white dark:text-gray-900 rounded-md shadow hover:shadow-lg transition"

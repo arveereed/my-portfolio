@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "title": "Linkedin Clone",
+        "description": "LinkedIn Clone is a solo-built, full-stack MERN application featuring user authentication, profiles, post creation, and media uploads. It uses Tailwind CSS and DaisyUI for the UI, Cloudinary for image handling, and TanStack React Query for efficient data fetching, caching, and state synchronization, ensuring a smooth and responsive user experience.",
+        "image": "/projects/linkedin.png",
+        "technologies": [
+            "React",
+            "Mongo DB",
+            "Tailwind CSS",
+            "Node.js",
+            "Express.js"
+        ],
+        "url": "https://linkedin-clone-98he.onrender.com/",
+        "isPinned": false,
+        "year": 2026
+    }
+]
