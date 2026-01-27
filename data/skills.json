@@ -14,5 +14,6 @@
     "PHP",
     "Laravel",
     "Cloudinary",
-    "Vercel"
+    "Vercel",
+    "Tanstack React Query"
 ]

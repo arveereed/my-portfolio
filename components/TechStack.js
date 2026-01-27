@@ -24,6 +24,7 @@ export default function TechStack({ skills }) {
     Firebase: "firebase",
     Cloudinary: "cloudinary",
     Vercel: "vercel",
+    "Tanstack React Query": "tanstack",
   };
 
   return (
