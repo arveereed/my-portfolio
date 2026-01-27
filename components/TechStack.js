@@ -22,6 +22,8 @@ export default function TechStack({ skills }) {
     "Express.js": "express",
     Clerk: "clerk",
     Firebase: "firebase",
+    Cloudinary: "cloudinary",
+    Vercel: "vercel",
   };
 
   return (

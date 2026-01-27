@@ -12,5 +12,7 @@
     "Clerk",
     "Firebase",
     "PHP",
-    "Laravel"
+    "Laravel",
+    "Cloudinary",
+    "Vercel"
 ]

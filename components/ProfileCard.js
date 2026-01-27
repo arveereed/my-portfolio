@@ -42,7 +42,7 @@ export default function ProfileCard({ settings }) {
           {settings.description}
         </p>
         <a
-          // href={settings.system_cv_path} = undo this to make this work
+          href={settings.system_cv_path}
           className="inline-flex cursor-pointer items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700 transition transform hover:scale-105 shadow-lg"
           download
         >
